@@ -1,0 +1,641 @@
+*{
+    margin: 0px;
+}
+.header{
+    background-color: #f7f8f9;
+    border: 1px solid #e4ffff;
+    display: flex;
+    flex-direction: row;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+    /* height: 600px; */
+    /* padding: 10px;     */
+    /* background-color: red; */
+}
+.olx{
+    width: 52px;
+    height: 30px;
+    margin: 20px;
+}
+.countries{
+    border: 2px solid black;
+    height: 45px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.header>input{
+    margin-left: 20px;
+    border: 2px solid black;
+    height: 25px;
+    width: 670px;
+   margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+.header>.countries>input{
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 10px;
+    height: 19px;
+    width: 155px;
+}
+.searchlogo{
+    padding: 10px;
+    border: none;
+    width: 20px;
+    height: 25px;
+}
+.anglearrow{
+    padding-top: 5px;
+
+    width: 30px;
+    height: 30px;
+}
+.searchwhite{
+    width: 20px;
+    height: 20px;
+}
+.camera{
+    width: 30px;
+    height: 30px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    background-color: #2a65ea;
+    width: 50px;
+    height: 49px;
+    margin-top: 10px;
+}
+.login-a{
+    color: #477aec;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: monospace;
+}
+.sell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    height: 50px;
+    width: 90px;
+    background-color: #477aec;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.sell img{
+    width: 20px;
+    height: 20px;
+    
+    margin-left: 10px;
+}
+.sell a{
+    margin: -3px;
+    /* margin-left: 10px; */
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+}
+.nav-bar{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.product{
+    margin-top: 10px;
+    /* display: flex;
+    flex-direction: row;
+    text-decoration: none; */
+}
+.categories>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 30px;
+    /* position: relative;
+    top: -0px; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.product li{
+    text-decoration: none;
+    /* color: #ffffff; */
+    /* padding: -10px; */
+    display: inline;
+    margin: 5px;
+    position: relative;
+    top: -5px;
+}
+
+.product>li>a{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: -15px; */
+    text-decoration: none;
+    /* margin: 5px; */
+}
+.anglearrow2{
+    position: relative;
+    left: 3px;
+    top: 1px;
+    /* margin-top: -10px; */
+    height: 20px;
+    width:  25px;
+}
+.Add{
+    display: block;
+    margin: 10px auto;
+}
+.add26{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.last-search{
+    background-color: #ebeeef;
+    width: 92%;
+    height: 365px;
+    margin: 0 auto;
+}
+/* .last-search>h2{
+    padding: 20px;
+    font-weight: normal;
+} */
+.last-search>span{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;    
+}
+.addheader>h2{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.addheader>a{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #477aec;
+    /* font-weight: bold; */
+    font-size: 15px;
+    text-decoration: none;
+}
+.last-adds{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rebeccapurple; */
+       justify-content: space-evenly;
+}
+.Fresh-recommendations{
+    background-color: #ebeeef;
+    width: 92%;
+    height: 100%;
+    margin: 30px auto;
+}
+.fresh-adds{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 10px; */
+    /* justify-content: space-evenly; */
+    /* margin-top: 10px; */
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.fresh-adds img{
+    /* margin: 11px; */
+    /* padding: 5px; */
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px; */
+    margin: 2%;
+    
+}
+.Fresh-recommendations>h2{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.selling{
+    text-align: center;
+    height: 250px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* margin: 10px; */
+    width: 18%;
+    padding: 12px;
+    background-color: #2a65ea;
+    color: #ffffff;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 29px;
+    /* margin-bottom: 10px; */
+    
+}    
+.selling h3{
+    font-size: 16px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.selling p{
+    /* text-align: justify; */
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.selling button{
+    width: 95%;
+    border: 2px solid #ffffff;
+    height: 35px;
+    color: #ffffff;
+    background-color: #2a65ea;
+    margin-top: 110px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;    
+}
+.Fresh-recommendations>button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a65ea;
+    border: 2px solid#2a65ea;
+    font-weight: bold;
+    font-size: 16px;
+    /* line-height: 50px; */
+    width: 105px;
+    height: 50px;
+    margin-left: 45%;
+}
+.promotion{
+    height: 209px;
+    border: 1px solid #f7f8f9;
+    background-color:  #f7f8f9;
+    /* text-align: center; */
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row;
+}
+.two{
+    height: 210px;
+    position: relative;
+    top: 0px;
+    /* width: 500px;
+    height:300px; */
+}
+.aboutpromo{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    width: 700px;
+    position: relative;
+    left: 60px;
+    /* margin: 0 auto; */
+    /* margin-left: 20px; */
+    /* background-color: red; */
+    /* padding: 10px; */
+
+}
+.aboutpromo h1{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a65ea;
+}
+.aboutpromo p{
+    
+    /* margin-top: 30px; */
+    font-size: 19px;
+    /* letter-spacing: 2; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #2a65ea; */
+}
+.get{
+    width: 600px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 200px ;
+    /* background-color: gray; */
+    border-left: 2px solid #c6cfd1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get p{
+    position: relative;
+    left: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.playstorelogo{
+    width: 140px;
+    height: 40px;
+
+    /* margin-right: 10px; */
+}
+.appstorelogo{
+    width: 140px;
+    height: 40px;
+
+}
+.lower-nav{
+    color: #002f34;
+    border-top: 1px solid #dadbd8;
+    border-bottom: 1px solid #dadbd8;
+    background-color:#ffffff;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* margin: 20px; */
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    /* font-weight: normal; */
+    /* margin: 20px; */
+    /* background-color: red; */
+    /* width: 92%;
+    margin: 20px auto; */
+}
+/* .logo img{
+    width: 30px;
+    height: 30px;
+} */
+
+.about-us>img{
+    width: 80px;
+    height: 30px;
+}
+.lower-nav ul{
+    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-right: 40px;
+    /* margin-top: 9px; */
+}
+.lower-nav li{
+    /* font-size: 60px; */
+    margin-bottom: 5px;
+    list-style: none;
+    /* margin-left: 60px; */
+}
+.lower-nav a{
+    /* margin-left: -60px; */
+    /* padding: -200px; */
+    /* margin: 30px;    */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #557477;
+    font-size: 12px;
+    text-decoration: none;
+}
+.lower-nav ul h4{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.about-us{
+    margin-left: 30px;
+}
+.playstorelogo{
+    margin-top: 20px;
+    /* margin-left: 30px; */
+}
+.appstorelogo{
+
+    margin-top: 20px;
+    /* margin-left: 30px; */
+}
+.logo img{
+    margin:2px;
+}
+.facebooklogo{
+    width: 20px;
+    height: 20px;
+}
+.twitterlogo{
+    width: 20px;
+    height: 20px;
+}
+.youtubelogo{
+    width: 25px;
+    position: relative;
+    top: 3px;
+    height: 25px;
+}
+.instalogo{
+    width: 20px;
+    height: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 2px;
+    align-items: center;
+    height: 40px;
+    background-color: #002f34;
+}
+.footer p,li{
+    font-size: 13px;
+    display: inline;
+}
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.loser{
+    margin-right: 20px;
+}
+.footer p{
+    font-weight: bold;
+    font-size: 14px;
+}
+body{
+    /* padding: 0px; */
+    margin: 0px;
+}
+.main-div{
+    /* float: right; */
+    /* margin:     px auto; */
+    border: 1px solid black;
+    width: 230px;
+    /* height: 300px; */
+    padding:0px 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.add1{
+    /* text-align: center; */
+    margin: 10px 45px;
+    /* width: 200px; */
+    height: 150px;
+}
+.rate{
+    margin-bottom: 5px;
+    /* margin-bottom: -50; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-size: 21px; */
+}
+.time{
+    
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* float: right; */
+    /* margin: 20px; */
+    /* text-align: right; */
+}
+.addr{
+    /* float: left; */
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-name{
+    margin-bottom: 10px;
+
+    font-size: 18   px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.discription{
+    font-size: 14px;    
+    margin-bottom: 10px;
+}
+.form-elements{
+    /* padding: 10px; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* border: 2px solid black; */
+    width: 100%;
+    /* box-sizing: border-box; */
+    /* height: 390px; */
+}
+.form-elements>input{
+    margin-left: 5px;
+    margin-right: 5px;
+    /* width: 200px; */
+    border: 2px solid black;
+    /* border-radius: 5px; */
+    height: 35px;
+    font-size: 19px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.add-button{
+    background-color: #477aec;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    /* margin-top: 10px; */
+    border: none;
+    /* height: 400px; */
+    /* margin-bottom: 0px; */
+    width: 80px;
+    /* border-radius: 5px; */
+    /* border-radius: 8px; */
+    /* padding: 10px; */
+    height: 42px;
+
+}
+.add-button:hover{
+    cursor: pointer;
+    color: white;
+}
+.Add-div{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-bottom: 20px;
+
+    background-color: white;
+}
+.add-footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #ebeeef;
+    justify-content: space-between;
+}
+.dlt-button{
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: #d2d2d2;
+    color: #000000;
+    border: none;
+}
+.dlt-button:hover{
+    
+    cursor: pointer;
+    color: white;
+}
+.edit-button{
+    
+    background-color: #d2d2d2;
+    color: #000000;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 18px;
+    border: none;
+
+}
+.edit-button:hover{
+    
+    cursor: pointer;
+    color: white;
+}
+.olxlogo{
+    width: 67px;
+    height: 38px;
+    margin: 20px;
+    /* margin-right: 100px; */
+}
+#my-adds{
+    /* display: flex; */
+    background-color: #ebeeef;
+    /* margin: 40px; */
+    /* height: 180px; */
+    margin: 30px 60px;
+    /* border: 2px solid black; */
+}
+.Total-adds{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+    padding-top: 0px;
+}
+.MyAdds{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 20px; */
+    font-weight: lighter;
+    padding: 20px;
+}
