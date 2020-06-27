@@ -20,18 +20,18 @@ var addButtonTextU;
 var divFooter;
 var divP;
 var addButton;
-var UpDatedAdds=document.childNodes[1].childNodes[2].childNodes[13];
+var UpDatedAdds = document.childNodes[1].childNodes[2].childNodes[13];
 
 var body = document.childNodes[1].childNodes[2];
-var upNavbar=document.getElementsByClassName("up-navbar")
-upNavbar1=body.childNodes[1];
-upNavbar1=upNavbar;
+var upNavbar = document.getElementsByClassName("up-navbar")
+upNavbar1 = body.childNodes[1];
+upNavbar1 = upNavbar;
 
 // upNavbar.appendChild(awian123)
 // var container = document.createElement("div")
 // container.setAttribute("class", "container")
-var main=document.getElementById("Main")
-var myAdds=document.getElementById("my-adds")
+var main = document.getElementById("Main")
+var myAdds = document.getElementById("my-adds")
 // var myAddsP=document.createElement("h2")
 // var myAddText=document.createTextNode("Your Adds")
 // myAddsP.setAttribute("class","MyAdds")
@@ -39,8 +39,8 @@ var myAdds=document.getElementById("my-adds")
 
 
 
-var totalAdds=document.createElement('div')
-totalAdds.setAttribute("class","Total-adds")
+var totalAdds = document.createElement('div')
+totalAdds.setAttribute("class", "Total-adds")
 
 
 
@@ -49,9 +49,9 @@ totalAdds.setAttribute("class","Total-adds")
 var formDiv = document.createElement("div")
 formDiv.setAttribute("class", "form-elements")
 
-var olxLogo=document.createElement("img")
-olxLogo.setAttribute("src","images/olxlogo.jpg")
-olxLogo.setAttribute("class","olxlogo")
+var olxLogo = document.createElement("img")
+olxLogo.setAttribute("src", "images/olxlogo.jpg")
+olxLogo.setAttribute("class", "olxlogo")
 console.log(olxLogo)
 
 var input1 = document.createElement("input")
@@ -187,95 +187,95 @@ main.appendChild(formDiv)
 
 
 
-
+console.log("TEST")
 
 function addButtonF() {
-    
+
     if (input1.value == "" || input2.value == "" || input3.value == "" || input4.value == "") {
         alert("Form is empty!Plese fill")
     }
     else {
         // myAdds.appendChild(myAddsP)
-        
+
         addDiv = document.createElement("div")
         addDiv.setAttribute("class", "Add-div")
-        
+
         mainDiv = document.createElement("div")
         mainDiv.setAttribute("class", "main-div")
         var img = document.createElement("img")
         img.setAttribute("src", "212.png")
         img.setAttribute("alt", "mobile-Add")
         img.setAttribute("class", "add1")
-        
-        
+
+
         rate = document.createElement("h1")
         rateText = document.createTextNode(input2.value)
         rate.appendChild(rateText)
         rate.setAttribute("class", "rate")
-        
-        
+
+
         productName = document.createElement("p")
         productNameText = document.createTextNode(input1.value)
         productName.appendChild(productNameText)
         productName.setAttribute("class", "product-name")
-        
-        
+
+
         discription = document.createElement("p")
         discriptionText = document.createTextNode(input3.value)
         discription.appendChild(discriptionText)
         discription.setAttribute("class", "discription")
-        
-        
+
+
         divFooter = document.createElement("div")
         divFooter.setAttribute("class", "footer-div")
-        
+
         addr = document.createElement("p")
         addrText = document.createTextNode(input4.value)
         addr.appendChild(addrText)
         addr.setAttribute("class", "addr")
-        
-        
+
+
         time = document.createElement("p")
         var timeText = document.createTextNode("today")
         time.setAttribute("class", "time")
         time.appendChild(timeText)
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
         divFooter.appendChild(addr)
         divFooter.appendChild(time)
-        
+
         mainDiv.appendChild(img)
         mainDiv.appendChild(rate)
         mainDiv.appendChild(productName)
         mainDiv.appendChild(discription)
         mainDiv.appendChild(divFooter)
-        
-        
+
+
         var addFooter = document.createElement("div")
         addFooter.setAttribute("class", "add-footer")
-        
+
         var dltButton = document.createElement("button")
         var dltButtonText = document.createTextNode("Delete")
         dltButton.appendChild(dltButtonText)
         dltButton.setAttribute("class", "dlt-button")
         dltButton.setAttribute("onclick", "dltButtonF(this)")
-        
+
         var editButton = document.createElement("button")
         var editButtonText = document.createTextNode("Edit")
         editButton.appendChild(editButtonText)
         editButton.setAttribute("onclick", "editButtonF(this)")
-        
+
         editButton.setAttribute("class", "edit-button")
         addFooter.appendChild(editButton)
         addFooter.appendChild(dltButton)
-        
-        
-        
+
+
+
         addDiv.appendChild(mainDiv)
         addDiv.appendChild(addFooter)
         // console.log(document.childNodes[1].childNodes[2].childNodes[13])
@@ -290,13 +290,13 @@ function addButtonF() {
     input2.value = "";
     input3.value = "";
     input4.value = "";
-    
-    
+
+
 }
 
 function dltButtonF(target) {
     parentTarget = target.parentNode.parentNode;
-    
+
     totalAdds.removeChild(parentTarget)
 }
 
@@ -324,9 +324,9 @@ function Save(sTarget) {
     mainDiv = eParentTarget.childNodes[0];
 
     console.log(mainDiv.childNodes[1], rate);
-    rate=mainDiv.childNodes[1];
-    productName=mainDiv.childNodes[2];
-    discription=mainDiv.childNodes[3];
+    rate = mainDiv.childNodes[1];
+    productName = mainDiv.childNodes[2];
+    discription = mainDiv.childNodes[3];
 
 
 
@@ -341,8 +341,8 @@ function Save(sTarget) {
 
 
     divFooter = mainDiv.childNodes[1];
-    addr=divFooter.childNodes[0]
-    time=divFooter.childNodes[1]
+    addr = divFooter.childNodes[0]
+    time = divFooter.childNodes[1]
 
 
 
